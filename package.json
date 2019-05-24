@@ -1,0 +1,25 @@
+{
+  "name": "sauce-connect-tunnel",
+  "version": "0.2.1",
+  "description": "A node.js wrapper around the Sauce Connect Proxy binary. Cloned from https://github.com/bytbil/sauce-connect-tunnel",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test/sanity"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/componentkitchen/sauce-connect-tunnel"
+  },
+  "keywords": [
+    "Saucelabs"
+  ],
+  "authors": [
+    "info@component.kitchen"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "request": "^2.81.0",
+    "split": "^1.0.0"
+  }
+}
